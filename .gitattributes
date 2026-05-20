@@ -1,0 +1,5 @@
+# Exclude everything from git-archive output (GitHub-generated source
+# zip/tar.gz on the releases page). This repo holds no source — it only
+# carries a README for visitors — and we don't want even that to be
+# downloadable from release pages.
+*           export-ignore
