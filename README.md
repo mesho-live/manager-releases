@@ -2,17 +2,17 @@
 
 This repository hosts public release downloads for **meshO Manager**.
 
-Source code lives in a separate private repository. This mirror exists solely to make releases publicly downloadable so end users can auto-update without authentication.
-
 ## Downloads
 
 See the [Releases](../../releases) page for the latest version.
 
-Each release contains installers and portable zips for:
+Each release contains installers for:
 
-- **Windows x64** — `meshOManager-<version>-win-x64-setup.exe` (NSIS installer) or `.zip` (portable)
-- **macOS Apple Silicon** — `meshOManager-<version>-osx-arm64-install.command` or `.zip`
-- **macOS Intel** — `meshOManager-<version>-osx-x64-install.command` or `.zip`
+- **Windows x64** — `meshOManager-<version>-win-x64-setup.exe` (NSIS installer)
+- **macOS Apple Silicon** — `meshOManager-<version>-osx-arm64.dmg`
+- **macOS Intel** — `meshOManager-<version>-osx-x64.dmg`
+
+The `.zip` archives in each release are used by the auto-updater and are not intended for direct download.
 
 ## Auto-update
 
